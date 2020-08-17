@@ -1,0 +1,40 @@
+/**index.wxss**/
+.back_header {
+  width: 100%;
+  height: 32px;
+  background: #ccc;
+  z-index: 21;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-bottom: 9px;
+}
+
+.back_header text {
+  color: #000;
+  width: 650rpx;
+  float: left;
+  text-align: center;
+  height: 32px;
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.back_header image {
+  float: left;
+  width: 9px;
+  height: 14px;
+  padding:18rpx 25rpx 34rpx 23rpx;
+  }
+  
+.menu {
+  width: 100%;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 67px;
+  left: 0;
+  z-index: 20;
+}

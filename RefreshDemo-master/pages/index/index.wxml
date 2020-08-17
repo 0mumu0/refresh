@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="back_header clearfix" style="padding-top:{{top}}px;padding-bottom:{{marginBottom}}px">
+
+	<text style="height:{{height}}px">自定义顶部导航</text>
+</view>
+<view  class="menu" >
+</view>
+<view style="width:100%;height:{{top1*2}}rpx;"></view>
+<refresh-view id='refreshView' backgroundColor="#000" bind:onRefresh="onPullDownRefresh"   />
+
+<view class="container" bindtouchstart='handletouchstart' bindtouchmove='handletouchmove' bindtouchend='handletouchend' bindtouchcancel='handletouchcancel'>
+
+</view>
